@@ -231,6 +231,7 @@ img{
    background-attachment: fixed;
    background-position: center;
    background-size: cover;
+   align-items:fixed;
    }  
 ins{
    color: blue;
