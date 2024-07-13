@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table><tr><th>Hentai</th><th>Anime</th><th>Manga</th></tr><tr>Ane wa yanmama</tr><tr>One pice<tr>Narutobs</tr></table>
+    
    
     
    
