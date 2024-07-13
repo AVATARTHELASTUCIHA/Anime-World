@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html> 
 <head>
-    <title>AnimeWorld</title>
+    
     <header>
         <div class="header-container">
             <div class="logo-container">
