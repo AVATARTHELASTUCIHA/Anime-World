@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
 <html> 
 <head>
-    
+<link rel="icon" href="Multiverse clap.jpg" type="image/jpg">
+
     <header>
         <div class="header-container">
             <div class="logo-container">
