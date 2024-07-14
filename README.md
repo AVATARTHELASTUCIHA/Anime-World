@@ -128,13 +128,7 @@
     height: 100%;
     overflow: hidden; /* Prevent scrollbars */
 }
-    .content {
-    position: relative;
-    z-index: 1; /* Ensure content is above the video */
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
+    
 
     
     .header-container {
@@ -258,7 +252,7 @@ img{
 }
 
 .video-background video {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     width: 100%;
@@ -266,7 +260,13 @@ img{
     object-fit: cover; /* Ensure the video covers the background */
     transform: translate(-50%, -50%);
 }
-
+.content {
+    position: relative;
+    z-index: 1; /* Ensure content is above the video */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
  body{
    
    background-repeat: no-repeat;
