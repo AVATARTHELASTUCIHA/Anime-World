@@ -39,7 +39,7 @@
     <img src="Ash Ketchum and Pikachu.jpeg" width="200" height="300" title="Pokemon">
     <img src="294d7b26-97f1-4f56-9eb4-2c7c744cabec.jpeg" width="200" height="300" title="Bleach">
     <img src="Luffy.jpeg" width="200" height="300" title="One Piece">
-    
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <div class="container">
         <form class="form-box" action="/submit" method="post">
             <h3>Enter the AnimeWorld</h3>
@@ -56,7 +56,7 @@
             <u>Already have an account?</u><input type="submit" value="Login">
         </form>
     </div>
-
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <footer>
         <div class="footer-container">
             <div class="footer-section">
