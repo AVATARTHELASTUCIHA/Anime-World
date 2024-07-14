@@ -9,15 +9,7 @@
                 <img src="a108c3bc43ff4a8d3d8721cbade24148.jpg" alt="Anime Logo">
                 <div class="logo-text">Anime<span>World</span></div>
             </div>
-            <nav>  <div class="video-background">
-                        <video autoplay muted loop>
-                            <source src="anime2.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
-                    <div class="content">
-                       
-                    </div>
+            <nav>  
 
                 <ul class="nav-menu">
                     <li><a href="#">Home</a></li>
@@ -39,7 +31,15 @@
 </head>
 <body>
     
-   
+   <div class="video-background">
+                        <video autoplay muted loop>
+                            <source src="anime2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="content">
+                       
+                    </div>
     
    
     
