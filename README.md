@@ -9,7 +9,16 @@
                 <img src="a108c3bc43ff4a8d3d8721cbade24148.jpg" alt="Anime Logo">
                 <div class="logo-text">Anime<span>World</span></div>
             </div>
-            <nav>
+            <nav>  <div class="video-background">
+                        <video autoplay muted loop>
+                            <source src="anime2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="content">
+                       
+                    </div>
+
                 <ul class="nav-menu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -226,8 +235,28 @@ h1:hover{
 img{
     border-image: auto;
 }
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Send the video behind other content */
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the background */
+    transform: translate(-50%, -50%);
+}
+
  body{
-   background-image: url(bg.jpg);
+   
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: center;
