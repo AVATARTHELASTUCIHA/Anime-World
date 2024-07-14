@@ -252,7 +252,7 @@ img{
 }
 
 .video-background video {
-    position: fixed;
+    position: relative;
     top: 50%;
     left: 50%;
     width: 100%;
