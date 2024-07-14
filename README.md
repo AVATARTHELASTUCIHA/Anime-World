@@ -124,6 +124,14 @@
         width: 100%;
         z-index: 1000;
     }
+    .content {
+    position: relative;
+    z-index: 1; /* Ensure content is above the video */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
     
     .header-container {
         display: flex;
