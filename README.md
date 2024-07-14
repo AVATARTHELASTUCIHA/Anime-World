@@ -124,6 +124,10 @@
         width: 100%;
         z-index: 1000;
     }
+    html, body {
+    height: 100%;
+    overflow: hidden; /* Prevent scrollbars */
+}
     .content {
     position: relative;
     z-index: 1; /* Ensure content is above the video */
@@ -244,7 +248,7 @@ img{
     border-image: auto;
 }
 .video-background {
-    position: absolute;
+    position: cover;
     top: 0;
     left: 0;
     width: 100%;
