@@ -93,7 +93,8 @@
 
 html, body {
     height: 100%;
-    overflow: hidden;
+    margin: 0;
+    overflow: auto; /* Ensure body can scroll */
 }
 
 body {
@@ -109,7 +110,7 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index: -1; /* Sends the video behind other content */
+    z-index: -1; /* Send the video behind other content */
 }
 
 .video-background video {
@@ -130,7 +131,7 @@ header {
     position: relative;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 1000; /* Ensure header is on top of video */
 }
 
 .header-container {
@@ -297,5 +298,6 @@ footer .footer-container .footer-section ul li a:hover {
     margin-top: 10px;
     font-size: 0.9em;
 }
+
 </style>
 </html>
