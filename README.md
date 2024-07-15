@@ -3,6 +3,7 @@
 <head>
     <link rel="icon" href="Multiverse clap.jpg" type="image/jpg">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Multiverse clap.jpg" type="image/jpg">
 </head>
 <body>
     <!-- Video Background -->
